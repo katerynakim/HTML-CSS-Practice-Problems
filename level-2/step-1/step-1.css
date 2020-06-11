@@ -3,6 +3,7 @@
     height: 375px;
     background: #F7F1E7;
     position: relative;
+    
 }
 
 .top-header {
@@ -17,8 +18,9 @@
 .menu {
     width: 100px;
     height: 40px;
+    margin-top: 10px;
     background: #536A63;
-    float: left;
+    
 }
 
 .logo {
@@ -26,13 +28,19 @@
     height: 40px;
     margin-top: 10px;
     background: #536A63;
-    display: inline-block;
 
 }
 
 .sign-in {
     width: 100px;
     height: 40px;
+    margin-top: 10px;
     background: #536A63;
-    float: right;
+
+}
+
+.top-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
 }
